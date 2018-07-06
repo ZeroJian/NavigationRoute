@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NavigationRoute_Example' do
+  pod 'NavigationRoute', :path => '../'
+
+  target 'NavigationRoute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
