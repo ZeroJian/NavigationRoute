@@ -1,0 +1,23 @@
+PODS:
+  - NavigationRoute (1.0.0):
+    - SnapKit
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - NavigationRoute (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  NavigationRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NavigationRoute: 4557630d80abc161652703dfdbbf8a1e4123b842
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 9dd51726514376f9fde3841345a48d896009b8b8
+
+COCOAPODS: 1.5.3

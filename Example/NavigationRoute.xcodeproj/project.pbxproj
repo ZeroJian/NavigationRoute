@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2219097AAB2CFCB13813AB9E /* Pods_NavigationRoute_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D4B83B4FCDB3941D27D988 /* Pods_NavigationRoute_Example.framework */; };
+		3229A3E0214B786B00B1E42B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3229A3DF214B786B00B1E42B /* NavigationView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +31,8 @@
 /* Begin PBXFileReference section */
 		04D4B83B4FCDB3941D27D988 /* Pods_NavigationRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		073AAE4E04CF1625BEF0FC5F /* Pods-NavigationRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationRoute_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationRoute_Tests/Pods-NavigationRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A457AE5832805B9E1A181DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3229A3DF214B786B00B1E42B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		3A457AE5832805B9E1A181DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NavigationRoute_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationRoute_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +46,8 @@
 		8850334231B5C7FB7C4E693D /* Pods_NavigationRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC798553F12FB5BA2045B6 /* Pods-NavigationRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationRoute_Tests/Pods-NavigationRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0546CF484C2741F512A5637 /* Pods-NavigationRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationRoute_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationRoute_Example/Pods-NavigationRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD1CB2A9613CA920DA347135 /* NavigationRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NavigationRoute.podspec; path = ../NavigationRoute.podspec; sourceTree = "<group>"; };
-		FE4C21247C322C633A367F51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD1CB2A9613CA920DA347135 /* NavigationRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationRoute.podspec; path = ../NavigationRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE4C21247C322C633A367F51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF84240174467E4F28D3A50C /* Pods-NavigationRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationRoute_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationRoute_Example/Pods-NavigationRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				3229A3DF214B786B00B1E42B /* NavigationView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -212,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M6AT9YV6P6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M6AT9YV6P6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -305,10 +310,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NavigationRoute_Example/Pods-NavigationRoute_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NavigationRoute/NavigationRoute.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NavigationRoute.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				3229A3E0214B786B00B1E42B /* NavigationView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +477,7 @@
 			baseConfigurationReference = FF84240174467E4F28D3A50C /* Pods-NavigationRoute_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6AT9YV6P6;
 				INFOPLIST_FILE = NavigationRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +493,7 @@
 			baseConfigurationReference = E0546CF484C2741F512A5637 /* Pods-NavigationRoute_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6AT9YV6P6;
 				INFOPLIST_FILE = NavigationRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 073AAE4E04CF1625BEF0FC5F /* Pods-NavigationRoute_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M6AT9YV6P6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AFFC798553F12FB5BA2045B6 /* Pods-NavigationRoute_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M6AT9YV6P6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
