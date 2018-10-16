@@ -68,7 +68,7 @@ class StackViewNavigation: ViewSwitchAnimation {
 	func pushView(_ view: UIView, animated: Bool) -> Bool {
 				
 //		if App.configuration == .debug {
-			self.showDebugPage(nextView: view)
+//			self.showDebugPage(nextView: view)
 //		}
 		
 		let success = viewAnimation(operation: .push, nextView: view, animated: animated) { (finished) in
